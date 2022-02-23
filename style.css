@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(240, 248, 255, 0.323);
+    position: fixed;
+
+}
+
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.navbar h1{
+    font-weight: 400%;
+    color: blue;
+    letter-spacing: 5px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul a{
+    padding: 2rem;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar ul a:hover{
+    color: white;
+    background-color: rgba(52, 49, 250, 0.589);
+}
+
+.container{
+    width: 95%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.hero{
+    max-width: 114rem;
+    height: 40rem;
+    background: url(images/1.jpg) no-repeat center center/cover;
+}
+
+main{
+    width: 100%;
+    max-width: 70rem;
+    background-color: gainsboro;
+    margin: 0 auto;
+    border-radius: 1.5rem;
+    padding: 3rem;
+    margin-top: -15rem;
+}
+
+main h2{
+    font-weight: 600;
+    text-transform: uppercase;
+}   
+
+main .profile-container{
+    align-items: center;
+    display: flex;
+    margin: 3rem 0;
+    justify-content: space-between;
+}
+
+main .profile-container .profile{
+    align-items: center;
+    display: flex;
+    justify-content: center;   
+}
+
+main .profile-container .profile .img-container{
+    width: 4rem;
+    height: 4rem;
+    background: url(images/avatar.png)no-repeat center center/cover;
+    border-radius: 0.5rem;
+}
+
+main .profile-container .profile .text{
+    margin-left: 10px;
+}
+
+.btn{
+    display: inline-block;
+    color: white;
+    background-color: blue;
+    padding: 0.3rem 1.5rem;
+    border-radius: 0.2rem;
+}
+
+main .content .p{
+    margin: 1rem 0;
+}
+
+main .content h4{
+    margin: 1.5rem 0;
+}
+
+.tags{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.tags a{
+    background-color: skyblue;
+    display: inline-block;
+    padding: 0.3rem 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.articles{
+    width: 100%;
+    margin: 5rem 0;
+    padding: 5rem 0;
+    background-color: antiquewhite;
+}
+
+
+.articles .article-heading{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.article-heading h5{
+    font-size: 5rem;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.048);
+}
+
+.article-heading h6{
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem auto;
+    gap: 5rem;
+    text-align: justify;
+}
+
+.img-holder{
+    width: 4rem;
+    height: 4rem;
+    background: url(images/avatar.png)no-repeat center center/cover;
+    border-radius: 0.5rem;
+}
+
+footer{
+    background-color: #222;
+    padding: 3rem 0;
+}
+
+.icons{
+    text-align: center;
+}
+
+.icons .social i{
+    color: grey;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.icons .social i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.copyright p{
+    color: white;
+}
